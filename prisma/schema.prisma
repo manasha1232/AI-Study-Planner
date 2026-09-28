@@ -4,3 +4,12 @@
 
 export const MODULE_NAME = 'schema';
 export const VERSION = '1.0.0';
+
+
+// --- [CommitFlow Agent: Day 1 Task #16] Day 1 (Part 16/15): Update Schedule persistence model and relations ---
+model EntityTask16 {
+  id        String   @id @default(uuid())
+  title     String
+  status    String   @default("ACTIVE")
+  createdAt DateTime @default(now())
+}
