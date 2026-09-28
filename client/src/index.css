@@ -1,0 +1,6 @@
+// Configure Tailwind CSS design system and color palette
+// Project: AI Study Planner
+// Category: UI
+
+export const MODULE_NAME = 'index';
+export const VERSION = '1.0.0';
